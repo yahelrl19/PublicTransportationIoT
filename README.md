@@ -1,6 +1,8 @@
 # Public Transportation IoT project
 Proyecto final 
 
-LoRa Receiver/n
-LoRa Transmitter/n
-SSD1306 example/n
+<ol>
+<li>LoRa Transmits</li>
+<li>LoRa Receives</li>
+<li>SSD1306</li>
+</ol>
