@@ -12,6 +12,7 @@ The first Arduino device is responsible for collecting GPS data from the vehicle
 - LoRa Module x2
 - GPS Module
 - PIR Sensor
+- OLED display 128x12
 
 ## Setup
 
