@@ -17,6 +17,7 @@ void setup() {
   Serial.print(F("[SX1272] Initializing ... "));
   int state = radio.begin(898.0,125.0,9,7,0x14,10,8,0); 
     //radio.begin(frequency(860.0-1020.0 MHz), bandwidth(125,250,500 kHz), spreading factor(6-12), coding rate denominater(5-8), sync word, output power(1-20 dBm),preamble length(6-65535), gain(0-6 , 0 automatic,  6 the lowest, max:1))
+  radio.setCRC(0);
 
   if (state == RADIOLIB_ERR_NONE) {
     Serial.println(F("success!"));
