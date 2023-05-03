@@ -1,31 +1,28 @@
-# Public Transportation System with IoT
+# Sistema de transporte público con IoT
 
-This project aims to provide a public transportation system that utilizes Internet of Things (IoT) technologies. The system consists of two Arduino devices that communicate with each other using LoRa communication protocol. 
+En este repositorio se encuentran todos los archivos usados en el proyecto final de la materia Internet de las Cosas. Este repositorio esta ordenado de la siguiente manera:
+* [docs](https://github.com/yahelrl19/PublicTransportationIoT/tree/7934a1b3b293206fce615c67af403a0525dacc00/docs): Se encuentra toda la documentación, imagenes de referencia y el vídeo del funcionamiento
+* [examples](https://github.com/yahelrl19/PublicTransportationIoT/tree/7934a1b3b293206fce615c67af403a0525dacc00/examples): Todos los ejemplos usados de todos los modulos por separado para su uso en la versión final
+* [src](https://github.com/yahelrl19/PublicTransportationIoT/tree/7934a1b3b293206fce615c67af403a0525dacc00/src): Los archivos fuente del proyecto
 
-## Overview
+## Construido con 🛠️
 
-The first Arduino device is responsible for collecting GPS data from the vehicle and transmitting it through LoRa to the second Arduino device. The second device receives the GPS data and converts it into estimated time of arrival (ETA) for the vehicle. Additionally, the second device uses a PIR sensor to detect the vehicle's capacity and display it as "Capacidad: baja", "Capacidad: media" or "Capacidad: alta", depending on the percentage of the vehicle's full capacity.
+_El hardware usado fue:_
 
-## Components
+* Arduino UNO
+* Shield SX1272
+* Módulo GPS NEO-6M
+* Sensor PIR
+* OLED 128x12
 
-- Arduino Uno x2
-- LoRa Module x2
-- GPS Module
-- PIR Sensor
-- OLED display 128x12
+_Las librerias usadas fueron:_
 
-## Setup
+* [RadioLib](https://github.com/jgromes/RadioLib)
+* [TinyGPS++](https://github.com/mikalhart/TinyGPSPlus/tree/master)
+* [Wire](https://github.com/arduino/ArduinoCore-avr/tree/eabd762a1edcf076877b7bec28b7f99099141473/libraries/Wire)
+* [Adafruit_GFX](https://github.com/adafruit/Adafruit-GFX-Library)
+* [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306)
 
-To set up the system, connect the GPS module and LoRa module to the first Arduino, and the LoRa module and PIR sensor to the second Arduino. The code for each Arduino can be found in the "src" folder of this repository.
+## Autor ✒️
 
-## Usage
-
-After setting up the system, turn on the first Arduino device and wait for it to transmit GPS data through LoRa to the second device. The second device will then display the estimated time of arrival and the vehicle's capacity on its screen.
-
-## Contributing
-
-Contributions to this project are welcome! If you would like to contribute, please follow the standard fork and pull request workflow on GitHub.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+* **Marcos Yahel Ramos Lara** - Maestría en Ciencias Computacionales - UAG 2023 - [yahelrl19](https://github.com/yahelrl19) - [email](marcos.ramos@edu.uag.mx)
