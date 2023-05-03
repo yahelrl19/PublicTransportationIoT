@@ -25,4 +25,4 @@ _Las librerias usadas fueron:_
 
 ## Autor ✒️
 
-* **Marcos Yahel Ramos Lara** - Maestría en Ciencias Computacionales - UAG 2023 - [yahelrl19](https://github.com/yahelrl19) - [email](marcos.ramos@edu.uag.mx)
+* **Marcos Yahel Ramos Lara** - Maestría en Ciencias Computacionales - UAG 2023 - [yahelrl19](https://github.com/yahelrl19) - [email](mailto:marcos.ramos@edu.uag.mx)
